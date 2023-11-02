@@ -42,7 +42,7 @@ class RacingController {
                         }
                 }
                 if (name.length() > 5 || name.length() == 0) {
-                        System.out.println("5글자 이상의 이름이 있습니다.");
+                        System.out.println("5글자 초과된 이름이 있습니다.");
                         throw new IllegalArgumentException();
                 }
         }
